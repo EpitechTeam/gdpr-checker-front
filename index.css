@@ -1,0 +1,6 @@
+.main {
+	height: 100vh;
+	background-image: url('./assets/bg-main.svg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
