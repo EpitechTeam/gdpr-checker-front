@@ -3,8 +3,28 @@
 	background-image: url('./assets/bg-main.svg');
 	background-size: cover;
 	background-repeat: no-repeat;
+	color: white;
 }
 
 .navbar {
 	color: white;
+}
+
+.main .main-input {
+	border: 1px solid #ececec;
+	width: 100%;
+	padding: 10px 20px;
+	border-radius: 7px 0 0 7px;
+}
+
+.main .main-input::placeholder {
+	color: #d4d4d4;
+}
+
+.main .scan-btn {
+	background: #0470DC;
+	border: 1px solid #0470DC;
+	border-radius: 0 7px 7px 0;
+	color: white;
+	padding: 0 20px;
 }
