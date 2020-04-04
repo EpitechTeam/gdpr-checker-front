@@ -14,10 +14,10 @@
 				</div>
 
 				<div class="ml-5 d-flex flex-column">
-					<div><a href="/aboutus.php">About us</a></div>
-					<div><a href="/aboutus.php">Contact</a></div>
-					<div><a href="/aboutus.php">F.A.Q</a></div>
-					<div><a href="/aboutus.php">Map</a></div>
+					<div><a href="#">About us</a></div>
+					<div><a href="/contact.php">Contact</a></div>
+					<div><a href="#">F.A.Q</a></div>
+					<div><a href="#">Map</a></div>
 
 				</div>
 			</div>

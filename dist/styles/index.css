@@ -15,6 +15,10 @@
 	color: white;
 }
 
+.main .main-image {
+	max-width: 450px;
+}
+
 .navbar, .navbar a {
 	color: white;
 }
@@ -121,6 +125,7 @@
 	padding: 10px 15px;
 	border-radius: 3px;
 	border: none;
+	box-shadow: 0 0 3px hsla(0,0%,11%,0.2);
 }
 
 .contact textarea {
@@ -128,8 +133,13 @@
 	padding: 10px 15px;
 	border-radius: 3px;
 	border: none;
+	box-shadow: 0 0 3px hsla(0,0%,11%,0.2);
 }
 
 input::placeholder, textarea::placeholder {
 	color: rgb(177, 177, 177);
+}
+
+.contact .btn {
+	box-shadow: 0 0 3px hsla(0,0%,11%,0.2);
 }

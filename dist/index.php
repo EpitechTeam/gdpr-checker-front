@@ -29,7 +29,7 @@
 			<div class="d-flex flex-row align-items-center row h-100">
 				<div class="d-flex flex-row mb-5">
 					<div class="col d-flex flex-column align-items-center">
-						<div>
+						<div class="flex-shrink-0">
 							<div class="font-weight-bold">
 								<h1>GDPR Compliance Checker</h1>
 							</div>
@@ -41,8 +41,8 @@
 							</div>
 						</div>
 					</div>
-					<div class="col">
-						<img class="ml-3" width="450px" src="./assets/image-balance.svg" />
+					<div class="col d-flex">
+						<img class="ml-3 main-image" src="./assets/image-balance.svg" />
 					</div>
 				</div>
 			</div>
