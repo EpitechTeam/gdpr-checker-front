@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+    frontend:
+        build: ./gdpr-checker-front
+        ports:
+            - "8080:80"
