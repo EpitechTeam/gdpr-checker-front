@@ -8,7 +8,7 @@
 
 .main {
 	height: calc(100vh);
-	background-image: url("/assets/bg-main.svg");
+	background-image: url("../assets/bg-main.svg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position-y: -100px;
@@ -67,7 +67,7 @@
 
 .section-3 {
 	color: #A5ADB1;
-	background-image: url("/assets/section3/bg.svg");
+	background-image: url("../assets/section3/bg.svg");
 	background-repeat: no-repeat;
 	background-size: contain;
 }
@@ -84,7 +84,7 @@
 .footer {
 	overflow: hidden;
 	height: 400px;
-	background-image: url("/assets/footer/bg.svg");
+	background-image: url("../assets/footer/bg.svg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
