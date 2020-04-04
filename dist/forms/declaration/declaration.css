@@ -1,0 +1,9 @@
+.declaration-container {
+    padding-top: 120px;
+}
+
+.image-balance {
+    display: flex;
+    justify-content: center;
+    /*padding-top: 120px;*/
+}
