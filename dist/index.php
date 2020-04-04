@@ -1,10 +1,11 @@
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="./index.css"/>
+	<link rel="stylesheet" href="./styles/index.css" />
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	
+
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -12,47 +13,40 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	<title>GDPR-Checker</title>
 </head>
+
 <body>
-	<div class="position-absolute d-flex flex-row w-100">
-		<div class="w-100 px-5 py-4 navbar d-flex flex-row align-items-center">
-			<div><img src="./assets/logo.svg" alt="logo"/></div>
-			<div class="nav-items d-flex flex-row align-items-center">
-				<div>About Us</div>
-				<div class="ml-4">Find a consultant</div>
-				<div class="ml-4">Simulation</div>
-				<div class="ml-4">Contact</div>
-			</div>
-		</div>
-	</div>
-	
+	<?php include("./includes/header.inc.php"); ?>
+
 	<div class="main">
 		<div class="container">
 			<div class="d-flex flex-row align-items-center row h-100">
 				<div class="d-flex flex-row mb-5">
 					<div class="col d-flex flex-column align-items-center">
 						<div>
-							<div class="font-weight-bold"><h1>GDPR Compliance Checker</h1></div>
+							<div class="font-weight-bold">
+								<h1>GDPR Compliance Checker</h1>
+							</div>
 							<div class="font-weight-light">Run a free website scan to see the cookies you're setting or allowing others to set, and who you're sending user data to.</div>
 							<div class="mt-4 d-flex flex-row">
-								<input class="main-input" type="text" placeholder="https://www.yourdomain.com/"/>
+								<input class="main-input" type="text" placeholder="https://www.yourdomain.com/" />
 								<button class="scan-btn">SCAN</button>
 							</div>
 						</div>
 					</div>
 					<div class="col">
-						<img class="ml-3" width="450px" src="./assets/image-balance.svg"/>
+						<img class="ml-3" width="450px" src="./assets/image-balance.svg" />
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	
+
 	<div class="section-2">
 		<div class="container d-flex justify-content-center">
 			<img class="section-2-img" src="./assets/section-2.svg" alt="features">
 		</div>
 	</div>
-	
+
 	<div class="section-3 mt-5 position-relative">
 		<div class="container d-flex flex-column justify-content-center">
 			<div class="row">
@@ -65,8 +59,8 @@
 					<div><button type="button" class="btn btn-primary mt-3">Find out more</button></div>
 				</div>
 			</div>
-			
-			
+
+
 			<div class="row step1">
 				<div class="col d-flex flex-column justify-content-center">
 					<img src="./assets/section3/step1.svg" alt="step 1">
@@ -76,7 +70,7 @@
 					<img src="./assets/section3/manonphone.svg" alt="man-on-phone">
 				</div>
 			</div>
-			
+
 			<div class="row step2">
 				<div class="col">
 					<img src="./assets/section3/medecine.svg" alt="medcine">
@@ -88,35 +82,8 @@
 			</div>
 		</div>
 	</div>
-	
-	<div class="footer position-relative mt-5">
-		<div class="position-absolute">
-			<img src="./assets/footer/trees.svg" alt="trees"/>
-		</div>
-		<div class="copyright w-100 position-absolute text-center">
-			©2020, GDPR-Checker
-		</div>
-		<div class="footer-content container">
-			<div class="h-100 align-items-center justify-content-center d-flex">
-				<div class="content d-flex flex-row justify-content-center">
-					<div class="w-50 d-flex flex-column">
-						<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
-						<div>Images here</div>
-					</div>
 
-					<div class="ml-5 d-flex flex-column">
-						<div>About us</div>
-						<div>Contact</div>
-						<div>F.A.Q</div>
-						<div>Map</div>
-
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="position-absolute lamp">
-			<img src="./assets/footer/lamp.svg" alt="trees"/>
-		</div>
-	</div>
+	<?php include("./includes/footer.inc.php"); ?>
 </body>
+
 </html>
