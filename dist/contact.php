@@ -18,12 +18,26 @@
 	<?php include("./includes/header.inc.php"); ?>
 
 	<div class="main">
-		<div class="container">
+		<div class="container contact">
 			<div class="d-flex flex-row justify-content-center align-items-center h-100">
-				<div>
-					<h1>Contact</h1>
-					<div>
-						<form></form>
+				<div class="contact-box">
+					<h1 class="">Get in touch</h1>
+					<div class="d-flex mt-5 flex-row">
+						<form id="contact-form" class="d-flex flex-column w-100">
+							<div class="d-flex flex-row">
+								<input type="text" class="d-flex flex-grow-1" placeholder="Last name" />
+								<input type="text" class="ml-3 d-flex flex-grow-1" placeholder="First name" />
+							</div>
+							<div class="d-flex mt-3 flex-row">
+								<input type="text" class="d-flex flex-grow-1" placeholder="Email" />
+							</div>
+							<div class="d-flex mt-3 flex-row">
+								<textarea class="flex-grow-1" name="" id="" cols="30" rows="10" placeholder="Say something"></textarea>
+							</div>
+							<div class="d-flex flex-row justify-content-end">
+								<button type="submit" class="btn btn-lg btn-primary mt-3">Contact us!</button>
+							</div>
+						</form>
 					</div>
 				</div>
 			</div>
@@ -32,5 +46,12 @@
 
 	<?php include("./includes/footer.inc.php"); ?>
 </body>
+
+<script type="text/javascript">
+	$("#contact-form").submit((e) => {
+		e.preventDefault();
+		console.log("Thank you for contacting us");
+	})
+</script>
 
 </html>

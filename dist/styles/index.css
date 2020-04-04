@@ -84,7 +84,7 @@
 .footer {
 	overflow: hidden;
 	height: 400px;
-	background-image: url("/dist/assets/footer/bg.svg");
+	background-image: url("/assets/footer/bg.svg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -107,4 +107,29 @@
 	color: #BDD3DF;
 	font-size: 10px;
 	background-color: transparent !important;
+}
+
+.contact {
+	color: white;
+}
+
+.contact-box {
+	min-width: 500px;
+}
+
+.contact input {
+	padding: 10px 15px;
+	border-radius: 3px;
+	border: none;
+}
+
+.contact textarea {
+	resize: none;
+	padding: 10px 15px;
+	border-radius: 3px;
+	border: none;
+}
+
+input::placeholder, textarea::placeholder {
+	color: rgb(177, 177, 177);
 }
