@@ -12,12 +12,12 @@ node {
     }
     stage('Build') {
       if (env.BRANCH_NAME == 'master') {
-        sh 'docker-compose build'
+        sh 'sudo docker-compose build'
       }
     }
     stage('Deploy'){
       if (env.BRANCH_NAME == 'master'){
-        sh 'docker-compose up -d'
+        sh 'sudo docker-compose up -d'
       }
     }
   }
