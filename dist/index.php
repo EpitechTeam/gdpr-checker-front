@@ -49,7 +49,7 @@
 								allowing others to set, and who you're sending user data to.</div>
 							<div class="mt-4 d-flex flex-row">
 								<input class="main-input" type="text" placeholder="https://www.yourdomain.com/" />
-								<button class="scan-btn">SCAN</button>
+								<button class="scan-btn" onclick="document.location.href='forms/declaration/declaration.php';">SCAN</button>
 							</div>
 						</div>
 					</div>

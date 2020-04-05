@@ -1,9 +1,13 @@
 .declaration-container {
-    padding-top: 120px;
+    padding-top: 100px;
 }
 
 .image-balance {
     display: flex;
     justify-content: center;
-    /*padding-top: 120px;*/
+}
+
+.scroller {
+    height: calc(100vh);
+    overflow: visible;
 }
