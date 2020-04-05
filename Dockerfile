@@ -1,13 +1,5 @@
-FROM node:lts-alpine
+FROM php:7.3.0-apache
 
-RUN npm install -g http-server serve
-
-WORKDIR /app
-
-RUN npm install
-
-COPY . .
+COPY dist/ /var/www/html
 
 EXPOSE 80
-
-CMD ls && serve -s dist -l 80

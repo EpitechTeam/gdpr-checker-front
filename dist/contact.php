@@ -25,14 +25,14 @@
 					<div class="d-flex mt-5 flex-row">
 						<form id="contact-form" class="d-flex flex-column w-100">
 							<div class="d-flex flex-row">
-								<input type="text" class="d-flex flex-grow-1" placeholder="Last name" />
-								<input type="text" class="ml-3 d-flex flex-grow-1" placeholder="First name" />
+								<input type="text" class="d-flex font-weight-light flex-grow-1" placeholder="Last name" />
+								<input type="text" class="ml-3 font-weight-light d-flex flex-grow-1" placeholder="First name" />
 							</div>
 							<div class="d-flex mt-3 flex-row">
-								<input type="text" class="d-flex flex-grow-1" placeholder="Email" />
+								<input type="text" class="d-flex font-weight-light flex-grow-1" placeholder="Email" />
 							</div>
 							<div class="d-flex mt-3 flex-row">
-								<textarea class="flex-grow-1" name="" id="" cols="30" rows="10" placeholder="Say something"></textarea>
+								<textarea class="flex-grow-1 font-weight-light" name="" id="" cols="30" rows="10" placeholder="Say something"></textarea>
 							</div>
 							<div class="d-flex flex-row justify-content-end">
 								<button type="submit" class="btn btn-lg btn-primary mt-3">Contact us!</button>

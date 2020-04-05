@@ -8,11 +8,15 @@
 
 .main {
 	height: calc(100vh);
-	background-image: url("/assets/bg-main.svg");
+	background-image: url("../assets/bg-main.svg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position-y: -100px;
 	color: white;
+}
+
+.main .main-image {
+	max-width: 450px;
 }
 
 .navbar, .navbar a {
@@ -67,7 +71,7 @@
 
 .section-3 {
 	color: #A5ADB1;
-	background-image: url("/assets/section3/bg.svg");
+	background-image: url("../assets/section3/bg.svg");
 	background-repeat: no-repeat;
 	background-size: contain;
 }
@@ -84,7 +88,7 @@
 .footer {
 	overflow: hidden;
 	height: 400px;
-	background-image: url("/assets/footer/bg.svg");
+	background-image: url("../assets/footer/bg.svg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -121,6 +125,7 @@
 	padding: 10px 15px;
 	border-radius: 3px;
 	border: none;
+	box-shadow: 0 0 3px hsla(0,0%,11%,0.2);
 }
 
 .contact textarea {
@@ -128,8 +133,13 @@
 	padding: 10px 15px;
 	border-radius: 3px;
 	border: none;
+	box-shadow: 0 0 3px hsla(0,0%,11%,0.2);
 }
 
 input::placeholder, textarea::placeholder {
 	color: rgb(177, 177, 177);
+}
+
+.contact .btn {
+	box-shadow: 0 0 3px hsla(0,0%,11%,0.2);
 }
