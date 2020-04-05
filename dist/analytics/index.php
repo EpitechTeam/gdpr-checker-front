@@ -28,7 +28,7 @@
 						<p class="card-text font-weight-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 					</div>
 					<div class="card-footer text-right">
-						<a href="#" class="btn btn-primary">Go to Declaration</a>
+						<a href="/analytics/declaration/declaration.php" class="btn btn-primary">Go to Declaration</a>
 					</div>
 				</div>
 
@@ -39,7 +39,7 @@
 						<p class="card-text font-weight-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 					</div>
 					<div class="card-footer text-right">
-						<a href="#" class="btn btn-primary">Go to Opposition</a>
+						<a href="/analytics/declaration/declaration.php" class="btn btn-primary">Go to Opposition</a>
 					</div>
 				</div>
 
@@ -50,7 +50,7 @@
 						<p class="card-text font-weight-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 					</div>
 					<div class="card-footer text-right">
-						<a href="#" class="btn btn-primary">Go to Verification</a>
+						<a href="/analytics/declaration/declaration.php" class="btn btn-primary">Go to Verification</a>
 					</div>
 				</div>
 
@@ -61,7 +61,7 @@
 						<p class="card-text font-weight-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 					</div>
 					<div class="card-footer text-right">
-						<a href="#" class="btn btn-primary">Go to Rectification</a>
+						<a href="/analytics/declaration/declaration.php" class="btn btn-primary">Go to Rectification</a>
 					</div>
 				</div>
 

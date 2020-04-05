@@ -5,6 +5,7 @@
 .image-balance {
     display: flex;
     justify-content: center;
+    padding-bottom: 16px;
 }
 
 .scroller {

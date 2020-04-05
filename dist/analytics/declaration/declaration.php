@@ -37,6 +37,7 @@
                         <img class="ml-3" width="250px" src="../../assets/image-balance.svg"/>
                     </div>
                     <div class="d-flex flex-column align-items-center col h-100">
+                        <button class="btn btn-primary"><a href="/analytics/index.php" class="text-light">Return to analytics</a></button>
                         <div class="scroller">
                         <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfSt8pqpVLGDnwA6XqYmKaiXUEvs24lVE5lOFLkgZSfQn6TtQ/viewform?embedded=true"
                                 id="target" width="640" height="100%" frameBorder="0" marginHeight="0" marginWidth="0" class="scroller">Chargement…
