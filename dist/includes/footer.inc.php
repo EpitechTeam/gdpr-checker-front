@@ -1,6 +1,6 @@
 <div class="footer position-relative mt-5">
-	<div class="position-absolute">
-		<img src="./assets/footer/trees.svg" alt="trees"/>
+	<div class="position-absolute d-none d-sm-block">
+		<img src="./assets/footer/trees.svg" alt="trees" />
 	</div>
 	<div class="copyright w-100 position-absolute text-center">
 		©2020, GDPR-Checker
@@ -9,8 +9,8 @@
 		<div class="h-100 align-items-center justify-content-center d-flex">
 			<div class="content d-flex flex-row justify-content-center">
 				<div class="w-50 d-flex flex-column">
-					<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
-					<div>Images here</div>
+					<div>GDPR-Checker services provide to companies a way to be GDPR compliant. Our services include a scan that can be run before submitting forms to check some details of your website. If you need some information, please contact us at the <a href="/contact.php">contact page</a>.
+						</br>You can also find us on Twitter, Facebook and Instagram.</div>
 				</div>
 
 				<div class="ml-5 d-flex flex-column">
@@ -23,7 +23,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="position-absolute lamp">
-		<img src="./assets/footer/lamp.svg" alt="trees"/>
+	<div class="position-absolute d-none d-sm-block lamp">
+		<img src="./assets/footer/lamp.svg" alt="trees" />
 	</div>
 </div>

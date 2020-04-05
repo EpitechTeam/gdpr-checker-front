@@ -41,7 +41,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col d-flex">
+					<div class="col d-sm-flex d-none">
 						<img class="ml-3 main-image" src="./assets/image-balance.svg" />
 					</div>
 				</div>
@@ -63,7 +63,7 @@
 				</div>
 				<div class="col">
 					<div>Take care of the core parts achieving a GDPR compliant website</div>
-					<div class="font-weight-light">Blah blah blah</div>
+					<div class="font-weight-light">The General Data Protection Regulation (GDPR) regulation came into force on May 25, 2018. Organization that are found to be in non-compliance can face significant fines along with costly damage to their brand.</div>
 					<div><button type="button" class="btn btn-primary mt-3">Find out more</button></div>
 				</div>
 			</div>
@@ -72,28 +72,20 @@
 			<div class="row step1">
 				<div class="col d-flex flex-column justify-content-center">
 					<img src="./assets/section3/step1.svg" alt="step 1">
-					<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-						labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-						laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-						voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-						non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+					<div>With our service GDPR-Checker, you can see how compliant is your organisation is and what else can you do to be more compliant answering to different forms adapted to your needs.</div>
 				</div>
-				<div class="col">
+				<div class="col d-none d-sm-block">
 					<img src="./assets/section3/manonphone.svg" alt="man-on-phone">
 				</div>
 			</div>
 
 			<div class="row step2">
-				<div class="col">
-					<img src="./assets/section3/medecine.svg" alt="medcine">
+				<div class="col d-none d-sm-block">
+					<img src="./assets/section3/medecine.svg" alt="medecine">
 				</div>
 				<div class="col d-flex flex-column justify-content-center">
 					<img src="./assets/section3/step2.svg" alt="step 2">
-					<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-						labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-						laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-						voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-						non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+					<div>Our GDPR-Checker Artificial Intelligence will examine the forms you sent and we will give you a detailed report of your needs.</div>
 				</div>
 			</div>
 		</div>
