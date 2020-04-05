@@ -15,7 +15,7 @@
 	<title>GDPR-Checker - Contact</title>
 </head>
 <body>
-    <?php include("/includes/header.inc.php"); ?>
+    <?php include("../../includes/header.inc.php"); ?>
 
     <div class="scroller" id="source">
         <div class="position-absolute d-flex flex-row w-100">
@@ -49,7 +49,7 @@
         </div>
     </div>
 
-	<?php include("/includes/footer.inc.php"); ?>
+	<?php include("../../includes/footer.inc.php"); ?>
 </body>
 
 <script>
