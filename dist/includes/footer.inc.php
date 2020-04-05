@@ -1,6 +1,6 @@
 <div class="footer position-relative mt-5">
 	<div class="position-absolute d-none d-sm-block">
-		<img src="./assets/footer/trees.svg" alt="trees" />
+		<img src="/assets/footer/trees.svg" alt="trees" />
 	</div>
 	<div class="copyright w-100 position-absolute text-center">
 		©2020, GDPR-Checker
@@ -24,6 +24,6 @@
 		</div>
 	</div>
 	<div class="position-absolute d-none d-sm-block lamp">
-		<img src="./assets/footer/lamp.svg" alt="trees" />
+		<img src="/assets/footer/lamp.svg" alt="trees" />
 	</div>
 </div>
