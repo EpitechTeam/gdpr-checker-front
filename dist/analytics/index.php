@@ -43,7 +43,7 @@
 					</div>
 					<div class="card-footer d-flex flex-row align-items-center">
 						<div class="progress flex-grow-1">
-							<div class="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+							<div class="progress-bar" role="progressbar" style="width: 2%" aria-valuenow="2" aria-valuemin="0" aria-valuemax="100"></div>
 						</div>
 						<a href="/analytics/declaration/declaration.php" class="btn ml-2 btn-primary">Go to Declaration</a>
 					</div>
@@ -57,7 +57,7 @@
 					</div>
 					<div class="card-footer d-flex flex-row align-items-center">
 						<div class="progress flex-grow-1">
-							<div class="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+							<div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
 						</div>
 						<a href="/analytics/declaration/declaration.php" class="btn ml-2 btn-primary">Go to Declaration</a>
 					</div>
@@ -71,7 +71,7 @@
 					</div>
 					<div class="card-footer d-flex flex-row align-items-center">
 						<div class="progress flex-grow-1">
-							<div class="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+							<div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
 						</div>
 						<a href="/analytics/declaration/declaration.php" class="btn ml-2 btn-primary">Go to Declaration</a>
 					</div>
