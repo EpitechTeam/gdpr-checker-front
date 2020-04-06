@@ -27,8 +27,11 @@
 						<h5 class="card-title">Declaration GDPR compliance</h5>
 						<p class="card-text font-weight-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 					</div>
-					<div class="card-footer text-right">
-						<a href="/analytics/declaration/declaration.php" class="btn btn-primary">Go to Declaration</a>
+					<div class="card-footer d-flex flex-row align-items-center">
+						<div class="progress flex-grow-1">
+							<div class="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>
+						<a href="/analytics/declaration/declaration.php" class="btn ml-2 btn-primary">Go to Declaration</a>
 					</div>
 				</div>
 
@@ -38,8 +41,11 @@
 						<h5 class="card-title">Opposition GDPR compliance</h5>
 						<p class="card-text font-weight-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 					</div>
-					<div class="card-footer text-right">
-						<a href="/analytics/declaration/declaration.php" class="btn btn-primary">Go to Opposition</a>
+					<div class="card-footer d-flex flex-row align-items-center">
+						<div class="progress flex-grow-1">
+							<div class="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>
+						<a href="/analytics/declaration/declaration.php" class="btn ml-2 btn-primary">Go to Declaration</a>
 					</div>
 				</div>
 
@@ -49,8 +55,11 @@
 						<h5 class="card-title">Verification GDPR compliance</h5>
 						<p class="card-text font-weight-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 					</div>
-					<div class="card-footer text-right">
-						<a href="/analytics/declaration/declaration.php" class="btn btn-primary">Go to Verification</a>
+					<div class="card-footer d-flex flex-row align-items-center">
+						<div class="progress flex-grow-1">
+							<div class="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>
+						<a href="/analytics/declaration/declaration.php" class="btn ml-2 btn-primary">Go to Declaration</a>
 					</div>
 				</div>
 
@@ -60,8 +69,11 @@
 						<h5 class="card-title">Rectification GDPR compliance</h5>
 						<p class="card-text font-weight-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 					</div>
-					<div class="card-footer text-right">
-						<a href="/analytics/declaration/declaration.php" class="btn btn-primary">Go to Rectification</a>
+					<div class="card-footer d-flex flex-row align-items-center">
+						<div class="progress flex-grow-1">
+							<div class="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>
+						<a href="/analytics/declaration/declaration.php" class="btn ml-2 btn-primary">Go to Declaration</a>
 					</div>
 				</div>
 
