@@ -18,17 +18,6 @@
     <?php include("../../includes/header.inc.php"); ?>
 
     <div class="scroller" id="source">
-        <div class="position-absolute d-flex flex-row w-100">
-            <div class="w-100 px-5 py-4 navbar d-flex flex-row align-items-center">
-                <div><img src="../../assets/logo.svg" alt="logo" onclick="window.location='../../index.html';"/></div>
-                <div class="nav-items d-flex flex-row align-items-center">
-                    <div>About Us</div>
-                    <div class="ml-4">Find a consultant</div>
-                    <div class="ml-4">Simulation</div>
-                    <div class="ml-4">Contact</div>
-                </div>
-            </div>
-        </div>
 
         <div class="main">
             <div class="declaration-container">

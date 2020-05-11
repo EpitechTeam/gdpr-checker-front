@@ -17,11 +17,11 @@
 <body>
 	<?php include("./includes/header.inc.php"); ?>
 
-	<div class="main">
+	<!-- <div class="main">
 		<div class="container contact">
 			<div class="d-flex flex-row justify-content-center align-items-center h-100">
 				<div class="contact-box">
-					<h1 class="">Get in touch</h1>
+
 					<div class="d-flex mt-5 flex-row">
 						<form id="contact-form" class="d-flex flex-column w-100">
 							<div class="d-flex flex-row">
@@ -39,6 +39,31 @@
 							</div>
 						</form>
 					</div>
+				</div>
+			</div>
+		</div> -->
+	</div>
+
+	<div class="main d-flex align-items-center">
+		<div class="contact container">
+			<div class="row no-gutters justify-conter-center">
+				<div class="col-12">
+					<h1 class="">Get in touch</h1>
+				</div>
+				<div class="col-12 col-md-6 p-2">
+					<input type="text" class="d-flex font-weight-light w-100" placeholder="Last name" required/>
+				</div>
+				<div class="col-12 col-md-6 p-2">
+					<input type="text" class="d-flex font-weight-light w-100" placeholder="Last name" required/>
+				</div>
+				<div class="col-12 p-2">
+					<input type="email" pattern=".+@.+\..{2,3}$" class="d-flex font-weight-light w-100" placeholder="Email"  required/>
+				</div>
+				<div class="col-12 p-2">
+					<textarea class="w-100 font-weight-light" name="" id="" cols="30" rows="10" placeholder="Say something" required></textarea>
+				</div>
+				<div class="col-12 p-2">
+					<button type="submit" class="btn btn-lg btn-primary mt-3 w-100">Contact us!</button>
 				</div>
 			</div>
 		</div>

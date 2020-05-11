@@ -19,8 +19,9 @@
 
 	<div class="category d-flex justify-content-center">
 		<div class="container">
-			<div class="category-box d-flex flex-wrap align-items-start">
+			<div class="row no-gutters category-box d-flex flex-wrap align-items-start">
 
+			<div class="col-12 col-md-6">
 				<div class="card border-light">
 					<div class="card-header">Form</div>
 					<div class="card-body">
@@ -34,7 +35,9 @@
 						<a href="/analytics/declaration/declaration.php" class="btn ml-2 btn-primary">Go to Declaration</a>
 					</div>
 				</div>
+			</div>
 
+			<div class="col-12 col-md-6">
 				<div class="card border-light">
 					<div class="card-header">Form</div>
 					<div class="card-body">
@@ -48,7 +51,9 @@
 						<a href="/analytics/declaration/declaration.php" class="btn ml-2 btn-primary">Go to Declaration</a>
 					</div>
 				</div>
+				</div>
 
+				<div class="col-12 col-md-6">
 				<div class="card border-light">
 					<div class="card-header">Form</div>
 					<div class="card-body">
@@ -62,7 +67,9 @@
 						<a href="/analytics/declaration/declaration.php" class="btn ml-2 btn-primary">Go to Declaration</a>
 					</div>
 				</div>
+				</div>
 
+				<div class="col-12 col-md-6">
 				<div class="card border-light">
 					<div class="card-header">Form</div>
 					<div class="card-body">
@@ -75,6 +82,7 @@
 						</div>
 						<a href="/analytics/declaration/declaration.php" class="btn ml-2 btn-primary">Go to Declaration</a>
 					</div>
+				</div>
 				</div>
 
 			</div>
