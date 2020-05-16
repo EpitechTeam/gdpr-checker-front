@@ -80,7 +80,7 @@
                                 								console.log("EVENT");
                                                                 	$.ajax({
                                                                 		type: 'POST', // On spécifie la méthode
-                                                                		url: 'http://localhost:9090/checksite',
+                                                                		url: 'https://api.gdpr-checker.willally.com/checksite',
                                                                 		data: { 'site': document.getElementById("myTextInput").value }, // 'sujet' est la clé accéssible dans ta variable $_POST, donc dans ton script php ==> $_POST['sujet'] et contiendra la valeur de ta variable 'ton_sujet' javascript
                                                                 		success: function (response) {
                                                                 		 let btn = document.getElementById("envoyer");
