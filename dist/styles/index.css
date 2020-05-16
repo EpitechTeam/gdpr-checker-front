@@ -231,6 +231,7 @@
 
 .contact {
     color: white;
+    max-width: 600px !important;
 }
 
 .contact-box {
@@ -270,7 +271,38 @@ textarea::placeholder {
     padding-top: 150px;
 }
 
+.category-box {
+    margin-left: auto;
+}
+
 .category .card {
-    margin: 5px;
-    flex: 0 0 45%;
+    margin: 12px;
+}
+
+@media screen and (max-width:768px) {
+    /* .category .card {
+        margin: 5px;
+        flex: 0 0 100%;
+        width: 100%;
+    } */
+}
+
+.navbar {
+    background-color: transparent !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white !important;
+}
+
+@media screen and (max-width:768px) {
+    .navbar {
+        background-color: white !important;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: hsl(0, 0%, 11%) !important;
+    }
+    .navbar .navbar-nav .nav-item .nav-link {
+        padding: 25px 0 !important;
+    }
 }
