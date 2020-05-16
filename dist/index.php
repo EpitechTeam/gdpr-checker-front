@@ -11,6 +11,7 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<title>GDPR-Checker</title>
 </head>
 
@@ -29,6 +30,7 @@
 	
 	<?php include("./includes/header.inc.php"); ?>
 
+
 	<div class="main">
 		<div class="container">
 			<div class="d-flex flex-row align-items-center row h-100">
@@ -41,8 +43,76 @@
 							<div class="font-weight-light">Run a free website scan to see the cookies you're setting or
 								allowing others to set, and who you're sending user data to.</div>
 							<div class="mt-4 d-flex flex-row">
-								<input class="main-input" type="text" placeholder="https://www.yourdomain.com/" />
-								<button class="scan-btn">Scan</button>
+<!-- Trigger the Modal -->
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <div id="caption"></div>
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+
+  <!-- Modal Caption (Image Text) -->
+</div>
+								<input class="main-input" type="text" id="myTextInput" placeholder="https://www.yourdomain.com/" />
+
+
+								<button  id="envoyer" class="scan-btn">Scan</button>
+									<script>
+									// Get the modal
+                                    var modal = document.getElementById("myModal");
+                                    // Get the image and insert it inside the modal - use its "alt" text as a caption
+                                    var img = document.getElementById("myImg");
+                                    var modalImg = document.getElementById("img01");
+                                    var captionText = document.getElementById("caption");
+                                  /*  img.onclick = function(){
+                                      modal.style.display = "block";
+                                      modalImg.src = this.src;
+                                      captionText.innerHTML = this.alt;
+                                    }
+                                 */
+                                    // Get the <span> element that closes the modal
+                                    var span = document.getElementsByClassName("close")[0];
+
+                                    // When the user clicks on <span> (x), close the modal
+                                    span.onclick = function() {
+                                      modal.style.display = "none";
+                                    }
+
+
+                                    function getRandomInt(max) {
+                                        return Math.floor(Math.random() * Math.floor(max));
+                                    }
+
+                                	$("#envoyer").click( function() {
+                                	  let btn = document.getElementById("envoyer");
+                                                                       btn.innerHTML = '<img width="40px" src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/35771931234507.564a1d2403b3a.gif">'
+
+                                								console.log("EVENT");
+                                                                	$.ajax({
+                                                                		type: 'POST', // On spécifie la méthode
+                                                                		url: 'http://localhost:9090/checksite',
+                                                                		data: { 'site': document.getElementById("myTextInput").value }, // 'sujet' est la clé accéssible dans ta variable $_POST, donc dans ton script php ==> $_POST['sujet'] et contiendra la valeur de ta variable 'ton_sujet' javascript
+                                                                		success: function (response) {
+                                                                		 let btn = document.getElementById("envoyer");
+
+                                                                		 btn.innerHTML = "Done"
+
+
+                                                                		  let img = document.getElementById("myImg");
+                                                                          let modalImg = document.getElementById("img01");
+                                                                          let captionText = document.getElementById("caption");
+
+                                                                		     modal.style.display = "block";
+                                                                		     modal.style.overflow = "scroll";
+                                                                             modalImg.src = response.url;
+                                                                            captionText.innerHTML = "www.gdpr-checker.willally.com scan: N°" + getRandomInt(20000000);
+                                                                			console.log(response); // Conseille d'amis utilise les consoles Firebug ou la console de developpement de ton navigateur ( F12 ) pour mieux comprendre tes erreurs <img src="images/smilies/icon_smile.gif" border="0" alt="" title=":)" class="inlineimg" />
+                                                                			}
+                                                                		} )
+                                                                    });
+                                								</script>
 							</div>
 							<div class="mt-4 text-center">
 								Or
