@@ -106,7 +106,7 @@
 								Or
 							</div>
 							<div class="mt-4 d-flex bg-primary">
-								<button class="w-100 p-2 btn-check bg-primary"><a class="text-light" href="/analytics/index.php">Check your GDPR compliance</a></button>
+								<button class="w-100 p-2 btn-check bg-primary" onclick="location.href='/analytics/index.php';"><a class="text-light">Check your GDPR compliance</a></button>
 							</div>
 						</div>
 					</div>
