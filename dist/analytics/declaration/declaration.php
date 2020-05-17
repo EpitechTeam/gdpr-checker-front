@@ -29,7 +29,7 @@
                         <button class="btn btn-primary"><a href="/analytics/index.php" class="text-light">Return to analytics</a></button>
                         <div class="scroller">
                         <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfSt8pqpVLGDnwA6XqYmKaiXUEvs24lVE5lOFLkgZSfQn6TtQ/viewform?embedded=true"
-                                id="target" width="640" height="100%" frameBorder="0" marginHeight="0" marginWidth="0" class="scroller">Chargement…
+                                id="target" width="80vw" height="100vh" frameBorder="0" marginHeight="0" marginWidth="0" class="scroller">Chargement…
                         </iframe>
                         </div>
                     </div>
@@ -38,7 +38,6 @@
         </div>
     </div>
 
-	<?php include("../../includes/footer.inc.php"); ?>
 </body>
 
 <script>

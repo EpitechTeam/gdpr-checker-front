@@ -21,6 +21,12 @@
     background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
 }
 
+.scroller {
+    width: 100vw;
+    height: 100vh;
+    overflow-y: scroll !important;
+}
+
 /* Modal Content (Image) */
 .modal-content {
     margin: auto;
@@ -115,7 +121,7 @@
 }
 
 .main {
-    height: calc(100vh);
+    height: calc(120vh);
     background-image: url("../assets/bg-main.svg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -305,4 +311,12 @@ textarea::placeholder {
     .navbar .navbar-nav .nav-item .nav-link {
         padding: 25px 0 !important;
     }
+}
+
+
+.container-main {
+    background-position-y: -100px;
+    height: calc(140vh);
+    padding-left: 20vw;
+    padding-right: 20vw;
 }

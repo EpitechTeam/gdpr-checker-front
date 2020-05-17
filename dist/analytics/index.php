@@ -18,7 +18,7 @@
 	<?php include("../includes/header.inc.php"); ?>
 
 	<div class="category d-flex justify-content-center">
-		<div class="container">
+		<div class="container-main">
 			<div class="row no-gutters category-box d-flex flex-wrap align-items-start">
 
 			<div class="col-12 col-md-6">

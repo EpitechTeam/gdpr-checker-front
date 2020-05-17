@@ -12,3 +12,11 @@
     height: calc(100vh);
     overflow: visible;
 }
+
+
+.container-main {
+    background-position-y: -100px;
+    height: calc(140vh);
+    padding-left: 20vw;
+    padding-right: 20vw;
+}
