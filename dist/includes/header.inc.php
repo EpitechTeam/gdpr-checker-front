@@ -10,7 +10,7 @@
 	</div>
 </div> -->
 
-<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+<nav class="navbar navbar-expand-lg navbar-light">
   <a class="navbar-brand" href="/index.php">
   	<img src="/assets/logo.svg" alt="logo" />
   </a>
