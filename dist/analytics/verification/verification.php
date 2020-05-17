@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="../../styles/index.css" />
-	<link rel="stylesheet" href="./declaration.css" />
+	<link rel="stylesheet" href="./../declaration/declaration.css" />
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 	<!-- Optional JavaScript -->
@@ -30,12 +30,12 @@
                     </div>
                     <div class="d-flex flex-column align-items-center col h-100">
                         <br />
-                        <h1>Declaration</h1>
+                        <h1>Verification</h1>
                         <br />
                         <button class="btn btn-primary"><a href="/analytics/index.php" class="text-light">Return to analytics</a></button>
                         <br/>
                         <div class="scroller">
-                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfSt8pqpVLGDnwA6XqYmKaiXUEvs24lVE5lOFLkgZSfQn6TtQ/viewform?embedded=true"
+                        <iframe src="https://docs.google.com/forms/d/1YqJkJ-kGfw0yztnJsKaMvntN6tdexepFM2YHgiZHFeM/viewform?embedded=true"
                                 id="target" width="80vw" height="100vh" frameBorder="0" marginHeight="0" marginWidth="0" class="scroller">Chargement…
                         </iframe>
                         </div>

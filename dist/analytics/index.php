@@ -23,10 +23,10 @@
 
 			<div class="col-12 col-md-6">
 				<div class="card border-light">
-					<div class="card-header">Form</div>
+					<div class="card-header">Declaration Form</div>
 					<div class="card-body">
-						<h5 class="card-title">Declaration GDPR compliance</h5>
-						<p class="card-text font-weight-light">A GDPR Compliance statement is a public-facing document that sets out the steps your company is taking, or that it has already taken, to become GDPR compliant.</p>
+					<h5 class="card-title">Information rights</h5>
+						<p class="card-text font-weight-light">An organization that collects information about their users must provide them with clear information about the usage of their data and rights.</p>
 					</div>
 					<div class="card-footer d-flex flex-row align-items-center">
 						<div class="progress flex-grow-1">
@@ -39,48 +39,52 @@
 
 			<div class="col-12 col-md-6">
 				<div class="card border-light">
-					<div class="card-header">Form</div>
+					<div class="card-header">Opposition Form</div>
 					<div class="card-body">
-						<h5 class="card-title">Opposition GDPR compliance</h5>
-						<p class="card-text font-weight-light">The GDPR gives individuals the right to object to the processing of their personal data ... Do we always need to erase personal data to comply with an objection?</p>
+					<h5 class="card-title">Opposition rights and procedures</h5>
+						<p class="card-text font-weight-light">Users can reject at any time to an organization using some of their data, this is especially common when data is used for commercial purposes.</p>
 					</div>
 					<div class="card-footer d-flex flex-row align-items-center">
 						<div class="progress flex-grow-1">
 							<div class="progress-bar" role="progressbar" style="width: 2%" aria-valuenow="2" aria-valuemin="0" aria-valuemax="100"></div>
 						</div>
-						<a href="/analytics/declaration/declaration.php" class="btn ml-2 btn-primary">Go to Declaration</a>
+						<a href="/analytics/opposition/opposition.php" class="btn ml-2 btn-primary">Go to Opposition</a>
 					</div>
 				</div>
 				</div>
 
 				<div class="col-12 col-md-6">
 				<div class="card border-light">
-					<div class="card-header">Form</div>
+					<div class="card-header">Verification Form</div>
 					<div class="card-body">
-						<h5 class="card-title">Verification GDPR compliance</h5>
-						<p class="card-text font-weight-light">Are you ready for the GDPR? Our GDPR checklist can help you secure your organization, protect your customers’ data, and avoid costly fines for non-compliance.</p>
+						<h5 class="card-title">Verification rights</h5>
+						<p class="card-text font-weight-light">
+                            Users can ask an organization if it has data about them (website, store, bank, etc.) and request that it be communicated to them to verify its content.
+						</p>
 					</div>
 					<div class="card-footer d-flex flex-row align-items-center">
 						<div class="progress flex-grow-1">
 							<div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
 						</div>
-						<a href="/analytics/declaration/declaration.php" class="btn ml-2 btn-primary">Go to Declaration</a>
+						<a href="/analytics/verification/verification.php" class="btn ml-2 btn-primary">Go to Verification</a>
 					</div>
 				</div>
 				</div>
 
 				<div class="col-12 col-md-6">
 				<div class="card border-light">
-					<div class="card-header">Form</div>
+					<div class="card-header">Rectification Form</div>
 					<div class="card-body">
-						<h5 class="card-title">Rectification GDPR compliance</h5>
-						<p class="card-text font-weight-light">The GDPR provides EU citizens (known as data subjects) the right to correct inaccurate personal data as well as the ability to complete or supplement incomplete personal data.</p>
+						<h5 class="card-title">Rectification rights</h5>
+						<p class="card-text font-weight-light">
+						    Users can request the rectification of inaccurate or incomplete information concerning them. It helps to prevent an organization from using or disseminating false information about them.
+						</p>
 					</div>
 					<div class="card-footer d-flex flex-row align-items-center">
 						<div class="progress flex-grow-1">
 							<div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
 						</div>
-						<a href="/analytics/declaration/declaration.php" class="btn ml-2 btn-primary">Go to Declaration</a>
+						<a href="/analytics/declaration/declaration.php" class="btn ml-2 btn-primary">Go to Rectification</a>
 					</div>
 				</div>
 				</div>
